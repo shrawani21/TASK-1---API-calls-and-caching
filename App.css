@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+  background-image: url('https://e1.pxfuel.com/desktop-wallpaper/497/366/desktop-wallpaper-black-website-backgrounds-black-website-background.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.App-header {
+  background-color: rgba(0, 0, 0, 0.5); /* Adding a semi-transparent background color */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* Keeping the animation styles */
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
